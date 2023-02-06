@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Slab&display=swap');
+        body{
+            background-color: rgb(134, 165, 165);
+        }
+        .main{
+            margin: auto;
+            text-align: left;
+            margin-top: 20px;
+            /* border: 2px solid red; */
+            width: 20%;
+            padding: 20px;
+            font-family: 'Itim', cursive;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 20px;
+            background-color: #ffffff;
+        }
+        .main > form div{
+            /* border: 1px solid; */
+            margin-top: 5%;
+            width: 60%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .main > form > div label{
+            margin-top: 20px;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- form -->
+<div class="main">
+    <h3>WebWindry</h3>
+    <form>
+        <div>
+        <label for="Name">First Name</label>
+        <input type="text" name="firstName" >
+        </div>
+        <div>
+        <label for="Name">Last Name</label>
+        <input type="text" name="lastName">
+        </div>
+        <div>
+        <label for="email">email</label>
+        <input type="email" name="forEmail" id="email">
+        </div>
+        <div>
+        <label for="AccountNo">Account No</label>
+        <input type="AccountNo">
+        </div>
+        <div>
+        <label for="RoutingNo">Routing No</label>
+        <input type="number">
+        </div>
+        <div>
+        <label for="date">Start Date</label>
+        <input type="date" name="date" id="date">
+        </div>
+    </form>
+</div>
+</body>
+</html>
