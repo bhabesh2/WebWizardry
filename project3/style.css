@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&family=Playfair+Display&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif;  font-family: 'Poppins', sans-serif; font-family: 'Laila', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #B2DFDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #26A69A;
+    cursor: pointer;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: black;
+}
+
+header{
+    padding: 15px 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+nav .logo:hover{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.hero_section{
+    display: flex;
+    align-items: center;
+}
+.left-hero-section{
+    width: 60%;
+    padding: 0 8%;
+    
+}
+
+.left-hero-section h1{
+    color: #00897B;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 16px;
+}
+.left-hero-section h1 span{
+    color: #272524;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #b8b8c5;
+    font-family: 'Laila', sans-serif;;
+    padding:0 15px;
+    text-align: center;
+}
+
+.left-hero-section p{
+    color: #292c2c;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+.left-hero-section span{
+    color: #292c2c;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Laila', sans-serif;
+    text-align: justify;
+}
+
+.right-hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imag-button{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    background-color: red;
+}
+.right-hero-section img{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer{
+    font-weight: 700;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer ul li i:hover{
+    font-size: 20px;
+    
+}
