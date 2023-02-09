@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; 
+    font-family: 'Laila', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 80%;
+    display: flex;
+    /* padding: 10px 10px 10px 10px; */
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+#container .table-main{
+    border-radius: 20px;
+    font-family: 'Laila', sans-serif;
+}
+
+.table-main{
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    
+}
+.table-main .t-head .t-row{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Laila', sans-serif;
+    
+}
+.table-main .t-head .t-row > th{
+    padding: 20px 20px 20px 20px;
+}
+.table-main .t-head .t-row > :nth-child(1){
+    padding: 20px 20px 20px 20px;
+    border-top-left-radius: 20px;
+}
+.table-main .t-head .t-row > :nth-child(4){
+    padding: 20px 20px 20px 20px;
+    border-top-right-radius: 20px;
+}
+
+/* table body part */
+#container .t-body tr td{
+    padding: 10px 10px 10px 10px;
+}
