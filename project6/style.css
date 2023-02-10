@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins&family=Ubuntu&display=swap');  
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./fec77a52-764d-4ea6-8f57-8a3f35a97936.png');
+
+}
+nav{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div{
+    width: 7%;
+    padding: 10px 0;
+}
+nav div img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+    color: greenyellow;
+}
+
+nav ul li a:hover{
+    background-color: rgb(99, 86, 86);
+    color: white;
+    padding: 0 30px;
+    border-radius: 20px;
+}
+
+nav button{
+    padding: 8px 35px 8px 35px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #FF8A65;
+    color: white;
+    border: none;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* section */
+
+#main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#main-section h1{
+    font-size: 55px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    color: #d1be12;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
+
+#main-section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 400px 10px 400px;
+    margin-top: 70px;
+}
+
+#main-section button{
+    padding: 8px 30px 8px 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f87249;
+    color: white;
+    border: none;
+}
+
+#main-section button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#main-section img{
+   margin-left: 1100px;
+   margin-top: -100px;
+   width: 150px;
+   margin-bottom: 5px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+
+footer ul li{
+    list-style: none;
+}
+ footer ul li a{
+    color: white;
+ }
