@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&family=Playfair+Display&display=swap');
+/* font-family: 'Laila', sans-serif;  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Laila', sans-serif; 
+}
+
+nav{
+    padding: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li img{
+    width: 60%;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #795548;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    margin-left: 10%;
+    height: 85%;
+}
+
+.left-section{
+    width: 40%;
+
+}
+
+.left-section h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.left-section p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.left-section button{
+    margin-top: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+}
+
+.right-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.right-section  .line img{
+    padding: 10px 10px 10px 10px;
+}
