@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    background-image: url('./bg.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+/* header section */
+
+header{
+    background-color: black;
+    padding: 10px 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+header .nav-logo{
+    /* border: 1px solid white; */
+    width: 10%;
+}
+
+header .nav-logo img{
+    width: 100%;
+}
+
+header nav .line{
+    width: 1px;
+    height: 50px;
+    border: 1px solid white;
+    margin-left: -300px;
+}
+
+header nav .menu{
+    margin-left: -300px;
+}
+
+header nav .menu ul{
+    display: flex;
+    /* border: 1px solid white; */
+    gap: 50px;
+}
+
+header nav .menu ul li{
+    list-style: none;
+
+}
+
+header nav .menu ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+header nav .nav-btn{
+    /* border: 1px solid white; */
+    padding: 14px 0;
+}
+
+header nav .nav-btn button{
+    padding: 10px 28px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-color: #be5fc5;
+    color: white;
+}
+
+/* hero section */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+section .box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 140px;
+    width: 60%;
+    /* border: 1px solid white; */
+}
+
+section .box1 h1{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+}
+
+section .box1 p{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.01em;
+}
+
+section .section-btn{
+    /* border: 1px solid white; */
+    padding: 14px 28px;
+}
+
+section .section-btn button{
+    padding: 14px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #be5fc5;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    letter-spacing: 0.01em;
+    font-size: 24px;
+}
