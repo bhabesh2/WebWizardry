@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-between;
+    margin: 0 5vw;
+    align-items: center;
+}
+
+.logo-image{
+    width: 12%;
+    cursor: pointer;
+}
+
+img[alt="logo"]{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+/* hero section */
+
+.main-section{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.left-hero-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.right-hero-section{
+    position: relative;
+    width: 50%;
+}
+
+
+
+.card-upon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+    width: 140%;
+    z-index: 100;
+    gap: 20px;
+    padding: 10px 25px;
+}
+
+.mouse-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: -50px;
+    margin-bottom: -10px;
+}
+
+img[alt="mouse"]{
+    width: 70%;
+}
+
+img[alt="topangle"]{
+    width: 4%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+img[alt="bottomAngle"]{
+    width: 4%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+.card-upon h1{
+    font-size: 55px;
+}
+
+.card-upon p{
+    font-size: 15px;
+    color: #7c7c7c;
+}
+
+.card-upon .response{
+    padding: 12px 19px;
+    width: max-content;
+    border-radius: 30px;
+    background-color: #50bd7e;
+    color: white;
+}
+
+.left-hero-imagebox{
+    width: 140%;
+    height: 100%;
+    margin-right: -200px;
+    margin-left: -300px;
+    position: relative;
+    background-color: #f0f4f5;
+}
+
+img[alt="stethoscope"]{
+    width: 100%;
+}
+
+img[alt="greenbox"]{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+img[alt="yellowbox"]{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+}
+
+img[alt="doctor"]{
+    width: 60%;
+    position: relative;
+    margin-left: 265px;
+    margin-top: -20px;
+}

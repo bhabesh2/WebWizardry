@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-between;
+    margin: 0 5vw;
+    align-items: center;
+}
+
+.logo-image{
+    width: 12%;
+    cursor: pointer;
+}
+
+img[alt="logo"]{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+/* main box */
+
+.main-box{
+    margin: 0 39vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 22px;
+    border-radius: 10px;
+    margin-top: 7%;
+    box-shadow: 0 0 10px black;
+
+}
+
+.main-box input{
+    border-radius: 15px;
+    padding: 0 5px;
+    border: none;
+}
+
+.main-box textarea{
+    border-radius: 12px;
+    padding: 0 5px;
+    border: none;
+}
+
+.main-box h1{
+    text-align: center;
+}
+
+.submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.submit input{
+    padding: 7px 100px;
+    font-size: 17px;
+    border-radius: 9px;
+    font-weight: 700;
+    background-color: #51be80;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

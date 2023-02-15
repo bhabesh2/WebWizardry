@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-between;
+    margin: 0 5vw;
+    align-items: center;
+}
+
+.logo-image{
+    width: 12%;
+    cursor: pointer;
+}
+
+img[alt="logo"]{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+/* main hero section */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.main-section h1{
+    font-size: 30px;
+    color: #51be80;
+}
+
+.card{
+    margin: 0 28vw;
+    text-align: center;
+}
+
+/* box section */
+
+.box{
+    display: flex;
+    gap: 50px;
+    width: 45%;
+}
+
+.box .box1{
+    padding: 17px 30px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+.box1 p{
+    font-weight: 500;
+    text-align: center;
+}
+
+.box1 h2{
+    text-align: center;
+    color: #51be80;
+
+}
